@@ -1,0 +1,176 @@
+#include "param_types.h"
+
+ConfigParam system_params[PARAM_COUNT] = {
+    // System
+    [PARAM_VERSION] = {
+        "version", "Config version", TYPE_UINT8, API_ACCESS,
+        {.uint8 = {1, 1, 255, 1, 1}}
+    },
+    
+    [PARAM_POWER_LEVEL] = {
+        "power_level", "Manual power level (%)", TYPE_UINT8, 
+        SERIAL_MENU | API_ACCESS | MQTT_ACCESS | NO_FLASH_SAVE,
+        {.uint8 = {0, 0, 100, 1, 0}}
+    },
+    
+    // Temperature
+    [PARAM_TEMP_SETPOINT] = {
+        "temp_setpoint", "Temperature setpoint", TYPE_FLOAT, 
+        SERIAL_MENU | API_ACCESS | MQTT_ACCESS | INFLUXDB_REPORT,
+	    {.number = {25.0, 0.0, 100.0, 0.1, 25.0}}
+    },
+    
+    [PARAM_TEMP_SETPOINT_MIN] = {
+        "temp_setpoint_min", "Min temperature setpoint", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {0.0, -10.0, 50.0, 0.1, 0.0}}
+    },
+    
+    [PARAM_TEMP_SETPOINT_MAX] = {
+        "temp_setpoint_max", "Max temperature setpoint", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {100.0, 50.0, 150.0, 0.1, 100.0}}
+    },
+    
+    [PARAM_TEMP_HYSTERESIS] = {
+        "temp_hysteresis", "Temperature hysteresis", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {0.5, 0.1, 5.0, 0.1, 0.5}}
+    },
+    
+    [PARAM_CURRENT_TEMP] = {
+        "current_temp", "Current temperature", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS | INFLUXDB_REPORT | NO_FLASH_SAVE,
+	    {.number = {0.0, -50.0, 150.0, 0.1, 0.0}}
+    },
+    
+    [PARAM_TEMP_CALIBRATION] = {
+        "temp_calibration", "Temperature calibration", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {0.0, -10.0, 10.0, 0.1, 0.0}}
+    },
+    
+    [PARAM_TEMP_SENSOR_TYPE] = {
+        "temp_sensor_type", "Temperature sensor type", TYPE_UINT8, 
+        API_ACCESS | MQTT_ACCESS,
+        {.uint8 = {0, 0, 2, 1, 0}}
+    },
+    
+    // PID
+    [PARAM_PID_KP] = {
+        "pid_kp", "PID proportional gain", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {2.0, 0.0, 100.0, 0.1, 2.0}}
+    },
+    
+    [PARAM_PID_KI] = {
+        "pid_ki", "PID integral gain", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {0.5, 0.0, 10.0, 0.01, 0.5}}
+    },
+    
+    [PARAM_PID_KD] = {
+        "pid_kd", "PID derivative gain", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {1.0, 0.0, 10.0, 0.1, 1.0}}
+    },
+    
+    [PARAM_PID_SAMPLE_TIME] = {
+        "pid_sample_time", "PID sample time (ms)", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {1000.0, 100.0, 10000.0, 100.0, 1000.0}}
+    },
+    
+    [PARAM_PID_MAX_POWER] = {
+        "pid_max_power", "PID maximum power (%)", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {80.0, 0.0, 100.0, 1.0, 80.0}}
+    },
+    
+    [PARAM_PID_MIN_POWER] = {
+        "pid_min_power", "PID minimum power (%)", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {0.0, 0.0, 100.0, 1.0, 0.0}}
+    },
+    
+    [PARAM_PID_MAX_TEMP_DIFF] = {
+        "pid_max_temp_diff", "PID maximum temperature difference", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {5.0, 0.1, 20.0, 0.1, 5.0}}
+    },
+    
+    [PARAM_PID_MIN_TEMP_DIFF] = {
+        "pid_min_temp_diff", "PID minimum temperature difference", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {1.0, 0.1, 10.0, 0.1, 1.0}}
+    },
+    
+    [PARAM_PID_SWITCHING_DELTA] = {
+        "pid_switching_delta", "PID switching delta", TYPE_FLOAT, 
+        API_ACCESS | MQTT_ACCESS,
+	    {.number = {5.0, 0.1, 10.0, 0.1, 5.0}}
+    },
+    
+    [PARAM_PID_AUTOTUNE_RUNNING] = {
+        "pid_autotune_running", "PID autotune running", TYPE_BOOL, 
+        API_ACCESS | MQTT_ACCESS | NO_FLASH_SAVE,
+        {.boolean = {false, false}}
+    },
+    
+    // Network
+    [PARAM_WIFI_SSID] = {
+        "wifi_ssid", "WiFi SSID", TYPE_STRING, API_ACCESS,
+        {.string = {"wifi", 32, "wifi"}}
+    },
+    
+    [PARAM_WIFI_PASSWORD] = {
+        "wifi_password", "WiFi password", TYPE_STRING, 
+        API_ACCESS | NO_FLASH_SAVE | SECURED_VALUE,
+        {.string = {"passw", 64, "passw"}}
+    },
+    
+    [PARAM_MQTT_SERVER] = {
+        "mqtt_server", "MQTT server", TYPE_STRING, API_ACCESS | MQTT_ACCESS,
+        {.string = {"", 64, ""}}
+    },
+    
+    [PARAM_MQTT_PORT] = {
+        "mqtt_port", "MQTT port", TYPE_UINT16, API_ACCESS | MQTT_ACCESS,
+        {.uint16 = {1883, 1, 65535, 1, 1883}}
+    },
+    
+    [PARAM_API_TOKEN] = {
+        "api_token", "API token", TYPE_STRING, 
+        API_ACCESS | NO_FLASH_SAVE | SECURED_VALUE,
+        {.string = {"my_token-102938", 33, "my_token-102938"}}
+    },
+    
+    [PARAM_HTTPS_ENABLED] = {
+        "https_enabled", "HTTPS enabled", TYPE_BOOL, API_ACCESS,
+        {.boolean = {true, true}}
+    },
+    
+    [PARAM_HTTPS_PORT] = {
+        "https_port", "HTTPS port", TYPE_UINT16, API_ACCESS,
+        {.uint16 = {443, 1, 65535, 1, 443}}
+    },
+
+    // New parameters
+    [PARAM_OPERATING_MODE] = {
+        "operating_mode", "Operating mode (0=Manual, 1=Auto)", TYPE_UINT8, 
+        SERIAL_MENU | API_ACCESS | MQTT_ACCESS,
+        {.uint8 = {1, 0, 1, 1, 1}}
+    },
+
+    [PARAM_UPDATE_INTERVAL] = {
+        "update_interval", "Data update interval (ms)", TYPE_FLOAT,
+        API_ACCESS | MQTT_ACCESS, 
+	    {.number = {1000.0, 100.0, 10000.0, 100.0, 1000.0}}
+    },
+
+    [PARAM_HEATER_ENABLED] = {
+        "heater_enabled", "Heater enabled", TYPE_BOOL,
+        API_ACCESS | MQTT_ACCESS | NO_FLASH_SAVE,
+        {.boolean = {true, true}}
+    }
+};

@@ -1,0 +1,176 @@
+1. No sense to store new params in the flash while PID is running
+
+Looking at your fermentation controller project, I can see it's a comprehensive system with temperature monitoring, power control, and HTTPS API capabilities. Here are some observations and suggestions for improvement:
+
+Key Strengths:
+Modular design with configurable modules
+
+EEPROM storage for persistent configuration
+
+HTTPS API with authentication
+
+Temperature sensing with DS18B20 support
+
+Zero-crossing dimmer for AC power control
+
+Potential Issues & Improvements:
+1. Memory Optimization
+Your HTTPS module uses significant memory. Consider:
+
+cpp
+// Reduce buffer sizes further in Config.h
+#define HTTP_REQUEST_SIZE 512    // Reduced from 1024
+#define HTTP_RESPONSE_SIZE 1024  // Reduced from 2048
+2. Temperature Sensor Reliability
+Add retry logic for sensor disconnections:
+
+cpp
+void TempSensorModule::readTemperature() {
+  if (!_sensorConnected) {
+    // Attempt reconnection periodically
+    static unsigned long lastReconnectAttempt = 0;
+    if (millis() - lastReconnectAttempt > 30000) { // Every 30 seconds
+      _sensorConnected = (_sensors.getDeviceCount() > 0);
+      lastReconnectAttempt = millis();
+    }
+    return;
+  }
+  // ... existing code
+}
+3. HTTPS Certificate Handling
+Your certificate handling might need adjustment:
+
+cpp
+// In HTTPS_Module.cpp, consider this approach:
+conf.servercert_len = strlen((const char*)server_cert);
+conf.prvtkey_len = strlen((const char*)server_key);
+4. Add PID Control Logic
+Since you have PID parameters in config, implement the controller:
+
+cpp
+// Add to main loop or separate function
+void updatePIDControl() {
+  #if MODULE_TEMP_SENSOR == YES && MODULE_ZERO_CROSS == YES
+  float error = config.getTempSetpoint() - tempSensor.getTemperature();
+  static float integral = 0;
+  static float lastError = 0;
+  
+  integral += error;
+  float derivative = error - lastError;
+  
+  float output = config.data.pidKp * error + 
+                 config.data.pidKi * integral + 
+                 config.data.pidKd * derivative;
+  
+  output = constrain(output, 0, 100);
+  heater.setPower((uint8_t)output);
+  config.setPowerLevel((uint8_t)output);
+  
+  lastError = error;
+  #endif
+}
+5. Safety Features
+Add overtemperature protection:
+
+cpp
+// In updateModules() function
+void checkSafety() {
+  #if MODULE_TEMP_SENSOR == YES
+  if (tempSensor.getTemperature() > config.getTempSetpoint() + 5.0) {
+    // Overtemperature condition
+    heater.setPower(0);
+    config.setPowerLevel(0);
+    Serial.println("SAFETY: Overtemperature detected, power disabled!");
+  }
+  #endif
+}
+6. API Enhancement
+Add more detailed error responses:
+
+cpp
+// In HTTPS_Module.cpp handlers
+esp_err_t setpoint_post_handler(httpd_req_t *req) {
+  // ... existing code
+  if (newSetpoint < TEMP_SETPOINT_MIN || newSetpoint > TEMP_SETPOINT_MAX) {
+    cJSON *error_json = cJSON_CreateObject();
+    cJSON_AddStringToObject(error_json, "error", "Setpoint out of range");
+    cJSON_AddNumberToObject(error_json, "min", TEMP_SETPOINT_MIN);
+    cJSON_AddNumberToObject(error_json, "max", TEMP_SETPOINT_MAX);
+    
+    const char* error_response = cJSON_PrintUnformatted(error_json);
+    httpd_resp_set_status(req, "400 Bad Request");
+    httpd_resp_set_type(req, "application/json");
+    httpd_resp_sendstr(req, error_response);
+    
+    free((void*)error_response);
+    cJSON_Delete(error_json);
+    return ESP_OK;
+  }
+  // ... rest of function
+}
+7. Watchdog Timer
+Add ESP32 watchdog for stability:
+
+cpp
+// In setup()
+void setup() {
+  // ... existing code
+  esp_task_wdt_init(30, true); // 30 second watchdog
+  esp_task_wdt_add(NULL); // Add current thread to watchdog
+}
+
+// In loop()
+void loop() {
+  esp_task_wdt_reset(); // Reset watchdog
+  // ... existing code
+}
+8. Configuration Validation
+Add validation to prevent invalid settings:
+
+cpp
+void ConfigSystem::setTempSetpoint(float temp) {
+  if (temp >= TEMP_SETPOINT_MIN && temp <= TEMP_SETPOINT_MAX) {
+    data.tempSetpoint = temp;
+    save();
+  } else {
+    Serial.println("Error: Temperature setpoint out of range");
+  }
+}
+9. Logging Improvement
+Add more detailed logging with timestamps:
+
+cpp
+void logMessage(String message) {
+  Serial.print("[");
+  Serial.print(millis() / 1000);
+  Serial.print("s] ");
+  Serial.println(message);
+}
+
+// Replace Serial.println() calls with logMessage()
+10. Power-On Self Test
+Add comprehensive startup checks:
+
+cpp
+void performPOST() {
+  Serial.println("=== Power-On Self Test ===");
+  
+  // Test GPIO pins
+  pinMode(TRIAC_PIN, OUTPUT);
+  digitalWrite(TRIAC_PIN, HIGH);
+  delay(100);
+  digitalWrite(TRIAC_PIN, LOW);
+  Serial.println("Triac pin test: OK");
+  
+  // Test temperature sensor
+  #if MODULE_TEMP_SENSOR == YES
+  if (tempSensor.begin()) {
+    Serial.println("Temperature sensor: OK");
+  } else {
+    Serial.println("Temperature sensor: FAILED");
+  }
+  #endif
+  
+  Serial.println("=== POST Complete ===");
+}
+These improvements will make your fermentation controller more robust, safe, and user-friendly. The project is well-structured and has good potential for expansion with additional features like data logging, remote monitoring, or recipe-based control.

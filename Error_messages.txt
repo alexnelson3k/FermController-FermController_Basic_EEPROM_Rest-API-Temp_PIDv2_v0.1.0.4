@@ -1,0 +1,803 @@
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:7:9: error: either all initializer clauses should be designated or none of them should be
+    7 |         .uint8 = {1, 1, 255, 1, 1}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:13:9: error: either all initializer clauses should be designated or none of them should be
+   13 |         .uint8 = {0, 0, 100, 1, 0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:20:9: error: either all initializer clauses should be designated or none of them should be
+   20 |         .number = {25.0, 0.0, 100.0, 0.1, 25.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:26:9: error: either all initializer clauses should be designated or none of them should be
+   26 |         .number = {0.0, -10.0, 50.0, 0.1, 0.0}  // TEMP_SETPOINT_MIN
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:32:9: error: either all initializer clauses should be designated or none of them should be
+   32 |         .number = {100.0, 50.0, 150.0, 0.1, 100.0}  // TEMP_SETPOINT_MAX
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:38:9: error: either all initializer clauses should be designated or none of them should be
+   38 |         .number = {0.5, 0.1, 5.0, 0.1, 0.5}  // TEMP_HYSTERESIS
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:44:9: error: either all initializer clauses should be designated or none of them should be
+   44 |         .number = {0.0, -50.0, 150.0, 0.1, 0.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:50:9: error: either all initializer clauses should be designated or none of them should be
+   50 |         .number = {0.0, -10.0, 10.0, 0.1, 0.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:56:9: error: either all initializer clauses should be designated or none of them should be
+   56 |         .uint8 = {0, 0, 2, 1, 0}  // 0=DS18B20, 1=DHT22, 2=NTC
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:63:9: error: either all initializer clauses should be designated or none of them should be
+   63 |         .number = {2.0, 0.0, 100.0, 0.1, 2.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:69:9: error: either all initializer clauses should be designated or none of them should be
+   69 |         .number = {0.5, 0.0, 10.0, 0.01, 0.5}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:75:9: error: either all initializer clauses should be designated or none of them should be
+   75 |         .number = {1.0, 0.0, 10.0, 0.1, 1.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:81:9: error: either all initializer clauses should be designated or none of them should be
+   81 |         .number = {1000.0, 100.0, 10000.0, 100.0, 1000.0}  // PID_SAMPLE_TIME
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:87:9: error: either all initializer clauses should be designated or none of them should be
+   87 |         .number = {80.0, 0.0, 100.0, 1.0, 80.0}  // PID_MAX_POWER
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:93:9: error: either all initializer clauses should be designated or none of them should be
+   93 |         .number = {0.0, 0.0, 100.0, 1.0, 0.0}  // PID_MIN_POWER
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:99:9: error: either all initializer clauses should be designated or none of them should be
+   99 |         .number = {5.0, 0.1, 20.0, 0.1, 5.0}  // PID_MAX_TEMP_DIFF
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:105:9: error: either all initializer clauses should be designated or none of them should be
+  105 |         .number = {1.0, 0.1, 10.0, 0.1, 1.0}  // PID_MIN_TEMP_DIFF
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:111:9: error: either all initializer clauses should be designated or none of them should be
+  111 |         .number = {5.0, 0.1, 10.0, 0.1, 5.0}  // PID_SWITCHING_DELTA
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:117:9: error: either all initializer clauses should be designated or none of them should be
+  117 |         .boolean = {false, false}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:123:9: error: either all initializer clauses should be designated or none of them should be
+  123 |         .string = {"wifi", 32, "wifi"}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:128:9: error: either all initializer clauses should be designated or none of them should be
+  128 |         .string = {"passw", 64, "passw"}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:133:9: error: either all initializer clauses should be designated or none of them should be
+  133 |         .string = {"", 64, ""}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:138:9: error: either all initializer clauses should be designated or none of them should be
+  138 |         .uint16 = {1883, 1, 65535, 1, 1883}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:143:9: error: either all initializer clauses should be designated or none of them should be
+  143 |         .string = {"my_token-102938", 33, "my_token-102938"}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:148:9: error: either all initializer clauses should be designated or none of them should be
+  148 |         .boolean = {true, true}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:153:9: error: either all initializer clauses should be designated or none of them should be
+  153 |         .uint16 = {443, 1, 65535, 1, 443}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:155:1: error: too many initializers for 'ConfigParam::<unnamed union>::<unnamed struct>'
+  155 | };
+      | ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\TempSensor_Module.cpp:7:8: error: 'ConfigSystem' does not name a type
+    7 | extern ConfigSystem config;
+      |        ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\TempSensor_Module.cpp: In member function 'void TempSensorModule::readTemperature()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\TempSensor_Module.cpp:62:36: error: 'config' was not declared in this scope
+   62 |   float calibratedTemp = rawTemp + config.data.temp_calibration;
+      |                                    ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\TempSensor_Module.cpp: In member function 'void TempSensorModule::setCalibration(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\TempSensor_Module.cpp:89:3: error: 'config' was not declared in this scope
+   89 |   config.data.temp_calibration = offset;
+      |   ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\eeprom_manager.cpp:119:6: error: redefinition of 'bool EEPROMManager::shouldSaveParam(const ConfigParam&)'
+  119 | bool EEPROMManager::shouldSaveParam(const ConfigParam& param) {
+      |      ^~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\eeprom_manager.cpp:93:6: note: 'bool EEPROMManager::shouldSaveParam(const ConfigParam&)' previously defined here
+   93 | bool EEPROMManager::shouldSaveParam(const ConfigParam& param) {
+      |      ^~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\command_processor.cpp:5:6: error: 'CommandProcessor' has not been declared
+    5 | void CommandProcessor::showAllParameters() {
+      |      ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\command_processor.cpp:44:6: error: 'CommandProcessor' has not been declared
+   44 | void CommandProcessor::showHelp() {
+      |      ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\command_processor.cpp:67:6: error: 'CommandProcessor' has not been declared
+   67 | bool CommandProcessor::setUint16Param(ConfigParam& param, const String& value) {
+      |      ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\command_processor.cpp: In function 'bool setUint16Param(ConfigParam&, const String&)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\command_processor.cpp:76:5: error: 'printRangeError' was not declared in this scope
+   76 |     printRangeError(param);
+      |     ^~~~~~~~~~~~~~~
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:2:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.h:15:20: error: 'ConfigSystem' has not been declared
+   15 |                    ConfigSystem* config, BurstFireDimmer* dimmer);
+      |                    ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.h:42:5: error: 'ConfigSystem' does not name a type
+   42 |     ConfigSystem* _config;
+      |     ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:7:32: error: 'ConfigSystem' has not been declared
+    7 |                                ConfigSystem* config, BurstFireDimmer* dimmer) {
+      |                                ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp: In constructor 'PID_AutoTune_v2::PID_AutoTune_v2(double*, double*, double*, int*, BurstFireDimmer*)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:11:3: error: '_config' was not declared in this scope; did you mean 'config'?
+   11 |   _config = config;
+      |   ^~~~~~~
+      |   config
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:15:22: error: request for member 'data' in '* config', which is of non-class type 'int'
+   15 |   SetTunings(config->data.pidKp, config->data.pidKi, config->data.pidKd);
+      |                      ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:15:42: error: request for member 'data' in '* config', which is of non-class type 'int'
+   15 |   SetTunings(config->data.pidKp, config->data.pidKi, config->data.pidKd);
+      |                                          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:15:62: error: request for member 'data' in '* config', which is of non-class type 'int'
+   15 |   SetTunings(config->data.pidKp, config->data.pidKi, config->data.pidKd);
+      |                                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:17:17: error: 'PID_SAMPLE_TIME' was not declared in this scope
+   17 |   _sampleTime = PID_SAMPLE_TIME;
+      |                 ^~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp: In member function 'void PID_AutoTune_v2::Compute()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:34:32: error: '_config' was not declared in this scope
+   34 |   if (currentTemp > setpoint + _config->getPidMaxTempDiff() * 2) {
+      |                                ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:51:26: error: '_config' was not declared in this scope
+   51 |     if (tempDifference > _config->getPidSwitchingDelta()) {
+      |                          ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp: In member function 'double PID_AutoTune_v2::ApplyPowerLimits(double, double)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:70:21: error: '_config' was not declared in this scope
+   70 |   double maxPower = _config->getPidMaxPower();
+      |                     ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp: In member function 'void PID_AutoTune_v2::StartAutoTune()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:108:5: error: '_config' was not declared in this scope
+  108 |     _config->setPidAutotuneRunning(true);
+      |     ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp: In member function 'void PID_AutoTune_v2::StopAutoTune()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:125:3: error: '_config' was not declared in this scope
+  125 |   _config->setPidAutotuneRunning(false);
+      |   ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp: In member function 'void PID_AutoTune_v2::AutoTuneRuntime()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:144:27: error: '_config' was not declared in this scope
+  144 |   if (currentDifference > _config->getPidSwitchingDelta()) {
+      |                           ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.cpp:208:5: error: '_config' was not declared in this scope
+  208 |     _config->data.pidKp = _Kp;
+      |     ^~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:9:1: error: 'ConfigSystem' does not name a type
+    9 | ConfigSystem config;
+      | ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:13:1: error: 'ConfigSystem' does not name a type
+   13 | ConfigSystem::ConfigSystem() : _initialized(false) {
+      | ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:20:6: error: 'ConfigSystem' has not been declared
+   20 | bool ConfigSystem::begin() {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'bool begin()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:21:8: error: '_prefs' was not declared in this scope
+   21 |   if (!_prefs.begin(CONFIG_NAMESPACE, false)) {
+      |        ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:21:21: error: 'CONFIG_NAMESPACE' was not declared in this scope
+   21 |   if (!_prefs.begin(CONFIG_NAMESPACE, false)) {
+      |                     ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:26:3: error: '_initialized' was not declared in this scope
+   26 |   _initialized = true;
+      |   ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:30:8: error: 'load' was not declared in this scope
+   30 |   if (!load()) {
+      |        ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:32:5: error: 'resetToDefaults' was not declared in this scope
+   32 |     resetToDefaults();
+      |     ^~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:40:6: error: 'ConfigSystem' has not been declared
+   40 | bool ConfigSystem::load() {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'bool load()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:41:8: error: '_initialized' was not declared in this scope
+   41 |   if (!_initialized) {
+      |        ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:47:8: error: '_prefs' was not declared in this scope
+   47 |   if (!_prefs.isKey("config_version")) {
+      |        ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:53:19: error: '_prefs' was not declared in this scope
+   53 |   size_t loaded = _prefs.getBytes("config_data", &data, sizeof(ConfigData));
+      |                   ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:53:51: error: 'data' was not declared in this scope
+   53 |   size_t loaded = _prefs.getBytes("config_data", &data, sizeof(ConfigData));
+      |                                                   ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:53:51: note: suggested alternatives:
+In file included from C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/unordered_map:42,
+                 from C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/functional:63,
+                 from C:\Users\Alex.Nelson\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.1\cores\esp32/HardwareSerial.h:49,
+                 from C:\Users\Alex.Nelson\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.1\cores\esp32/Arduino.h:202,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\Config.h:7,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:5:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+In file included from C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_algobase.h:38,
+                 from C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_algo.h:38,
+                 from C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/algorithm:63,
+                 from C:\Users\Alex.Nelson\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.1\cores\esp32/Arduino.h:190:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:53:64: error: 'ConfigData' was not declared in this scope
+   53 |   size_t loaded = _prefs.getBytes("config_data", &data, sizeof(ConfigData));
+      |                                                                ^~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:63:5: error: 'resetToDefaults' was not declared in this scope
+   63 |     resetToDefaults();
+      |     ^~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:73:6: error: 'ConfigSystem' has not been declared
+   73 | bool ConfigSystem::save() {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'bool save()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:74:8: error: '_initialized' was not declared in this scope
+   74 |   if (!_initialized) {
+      |        ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:80:18: error: '_prefs' was not declared in this scope
+   80 |   size_t saved = _prefs.putBytes("config_data", &data, sizeof(ConfigData));
+      |                  ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:80:50: error: 'data' was not declared in this scope
+   80 |   size_t saved = _prefs.putBytes("config_data", &data, sizeof(ConfigData));
+      |                                                  ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:80:50: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:80:63: error: 'ConfigData' was not declared in this scope
+   80 |   size_t saved = _prefs.putBytes("config_data", &data, sizeof(ConfigData));
+      |                                                               ^~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:96:6: error: 'ConfigSystem' has not been declared
+   96 | bool ConfigSystem::resetToDefaults() {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'bool resetToDefaults()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:97:3: error: 'data' was not declared in this scope
+   97 |   data = DEFAULT_CONFIG;
+      |   ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:97:3: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:97:10: error: 'DEFAULT_CONFIG' was not declared in this scope
+   97 |   data = DEFAULT_CONFIG;
+      |          ^~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:103:6: error: 'ConfigSystem' has not been declared
+  103 | void ConfigSystem::print() {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void print()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:105:45: error: 'data' was not declared in this scope
+  105 |   Serial.print("Version: "); Serial.println(data.version);
+      |                                             ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:105:45: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:118:9: error: 'ConfigSystem' has not been declared
+  118 | uint8_t ConfigSystem::getPowerLevel() {
+      |         ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'uint8_t getPowerLevel()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:119:10: error: 'data' was not declared in this scope
+  119 |   return data.powerLevel;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:119:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:122:6: error: 'ConfigSystem' has not been declared
+  122 | void ConfigSystem::setPowerLevel(uint8_t level) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPowerLevel(uint8_t)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:124:5: error: 'data' was not declared in this scope
+  124 |     data.powerLevel = level;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:124:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:129:7: error: 'ConfigSystem' has not been declared
+  129 | float ConfigSystem::getTempSetpoint() {
+      |       ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'float getTempSetpoint()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:130:10: error: 'data' was not declared in this scope
+  130 |   return data.tempSetpoint;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:130:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:133:6: error: 'ConfigSystem' has not been declared
+  133 | void ConfigSystem::setTempSetpoint(float temp) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setTempSetpoint(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:134:15: error: 'TEMP_SETPOINT_MIN' was not declared in this scope; did you mean 'TEMP_SENSOR_PIN'?
+  134 |   if (temp >= TEMP_SETPOINT_MIN && temp <= TEMP_SETPOINT_MAX) {
+      |               ^~~~~~~~~~~~~~~~~
+      |               TEMP_SENSOR_PIN
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:134:44: error: 'TEMP_SETPOINT_MAX' was not declared in this scope
+  134 |   if (temp >= TEMP_SETPOINT_MIN && temp <= TEMP_SETPOINT_MAX) {
+      |                                            ^~~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:135:5: error: 'data' was not declared in this scope
+  135 |     data.tempSetpoint = temp;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:135:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:141:7: error: 'ConfigSystem' has not been declared
+  141 | float ConfigSystem::getPidMaxPower() {
+      |       ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'float getPidMaxPower()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:142:10: error: 'data' was not declared in this scope
+  142 |   return data.pidMaxPower;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:142:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:145:6: error: 'ConfigSystem' has not been declared
+  145 | void ConfigSystem::setPidMaxPower(float power) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPidMaxPower(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:147:5: error: 'data' was not declared in this scope
+  147 |     data.pidMaxPower = power;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:147:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:152:7: error: 'ConfigSystem' has not been declared
+  152 | float ConfigSystem::getPidMinPower() {
+      |       ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'float getPidMinPower()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:153:10: error: 'data' was not declared in this scope
+  153 |   return data.pidMinPower;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:153:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:156:6: error: 'ConfigSystem' has not been declared
+  156 | void ConfigSystem::setPidMinPower(float power) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPidMinPower(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:158:5: error: 'data' was not declared in this scope
+  158 |     data.pidMinPower = power;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:158:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:163:7: error: 'ConfigSystem' has not been declared
+  163 | float ConfigSystem::getPidMaxTempDiff() {
+      |       ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'float getPidMaxTempDiff()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:164:10: error: 'data' was not declared in this scope
+  164 |   return data.pidMaxTempDiff;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:164:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:167:6: error: 'ConfigSystem' has not been declared
+  167 | void ConfigSystem::setPidMaxTempDiff(float diff) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPidMaxTempDiff(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:169:5: error: 'data' was not declared in this scope
+  169 |     data.pidMaxTempDiff = diff;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:169:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:174:7: error: 'ConfigSystem' has not been declared
+  174 | float ConfigSystem::getPidMinTempDiff() {
+      |       ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'float getPidMinTempDiff()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:175:10: error: 'data' was not declared in this scope
+  175 |   return data.pidMinTempDiff;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:175:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:178:6: error: 'ConfigSystem' has not been declared
+  178 | void ConfigSystem::setPidMinTempDiff(float diff) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPidMinTempDiff(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:180:5: error: 'data' was not declared in this scope
+  180 |     data.pidMinTempDiff = diff;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:180:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:185:6: error: 'ConfigSystem' has not been declared
+  185 | bool ConfigSystem::getPidAutotuneRunning() {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'bool getPidAutotuneRunning()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:186:10: error: 'data' was not declared in this scope
+  186 |   return data.pidAutotuneRunning;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:186:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:189:6: error: 'ConfigSystem' has not been declared
+  189 | void ConfigSystem::setPidAutotuneRunning(bool running) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPidAutotuneRunning(bool)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:190:3: error: 'data' was not declared in this scope
+  190 |   data.pidAutotuneRunning = running;
+      |   ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:190:3: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:194:7: error: 'ConfigSystem' has not been declared
+  194 | float ConfigSystem::getPidSwitchingDelta() {
+      |       ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'float getPidSwitchingDelta()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:195:10: error: 'data' was not declared in this scope
+  195 |   return data.pidSwitchingDelta;
+      |          ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:195:10: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:198:6: error: 'ConfigSystem' has not been declared
+  198 | void ConfigSystem::setPidSwitchingDelta(float diff) {
+      |      ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp: In function 'void setPidSwitchingDelta(float)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:200:5: error: 'data' was not declared in this scope
+  200 |     data.pidSwitchingDelta = diff;
+      |     ^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\ConfigSystem.cpp:200:5: note: suggested alternatives:
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/range_access.h:344:5: note:   'std::data'
+  344 |     data(initializer_list<_Tp> __il) noexcept
+      |     ^~~~
+C:/Users/Alex.Nelson/AppData/Local/Arduino15/packages/esp32/tools/esp-rv32/2411/riscv32-esp-elf/include/c++/14.2.0/bits/ranges_base.h:494:46: note:   'std::ranges::_Cpo::data'
+  494 |     inline constexpr ranges::__access::_Data data{};
+      |                                              ^~~~
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:9:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:7:9: error: either all initializer clauses should be designated or none of them should be
+    7 |         .uint8 = {1, 1, 255, 1, 1}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:13:9: error: either all initializer clauses should be designated or none of them should be
+   13 |         .uint8 = {0, 0, 100, 1, 0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:20:9: error: either all initializer clauses should be designated or none of them should be
+   20 |         .number = {25.0, 0.0, 100.0, 0.1, 25.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:26:9: error: either all initializer clauses should be designated or none of them should be
+   26 |         .number = {0.0, -10.0, 50.0, 0.1, 0.0}  // TEMP_SETPOINT_MIN
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:32:9: error: either all initializer clauses should be designated or none of them should be
+   32 |         .number = {100.0, 50.0, 150.0, 0.1, 100.0}  // TEMP_SETPOINT_MAX
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:38:9: error: either all initializer clauses should be designated or none of them should be
+   38 |         .number = {0.5, 0.1, 5.0, 0.1, 0.5}  // TEMP_HYSTERESIS
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:44:9: error: either all initializer clauses should be designated or none of them should be
+   44 |         .number = {0.0, -50.0, 150.0, 0.1, 0.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:50:9: error: either all initializer clauses should be designated or none of them should be
+   50 |         .number = {0.0, -10.0, 10.0, 0.1, 0.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:56:9: error: either all initializer clauses should be designated or none of them should be
+   56 |         .uint8 = {0, 0, 2, 1, 0}  // 0=DS18B20, 1=DHT22, 2=NTC
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:63:9: error: either all initializer clauses should be designated or none of them should be
+   63 |         .number = {2.0, 0.0, 100.0, 0.1, 2.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:69:9: error: either all initializer clauses should be designated or none of them should be
+   69 |         .number = {0.5, 0.0, 10.0, 0.01, 0.5}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:75:9: error: either all initializer clauses should be designated or none of them should be
+   75 |         .number = {1.0, 0.0, 10.0, 0.1, 1.0}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:81:9: error: either all initializer clauses should be designated or none of them should be
+   81 |         .number = {1000.0, 100.0, 10000.0, 100.0, 1000.0}  // PID_SAMPLE_TIME
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:87:9: error: either all initializer clauses should be designated or none of them should be
+   87 |         .number = {80.0, 0.0, 100.0, 1.0, 80.0}  // PID_MAX_POWER
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:93:9: error: either all initializer clauses should be designated or none of them should be
+   93 |         .number = {0.0, 0.0, 100.0, 1.0, 0.0}  // PID_MIN_POWER
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:99:9: error: either all initializer clauses should be designated or none of them should be
+   99 |         .number = {5.0, 0.1, 20.0, 0.1, 5.0}  // PID_MAX_TEMP_DIFF
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:105:9: error: either all initializer clauses should be designated or none of them should be
+  105 |         .number = {1.0, 0.1, 10.0, 0.1, 1.0}  // PID_MIN_TEMP_DIFF
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:111:9: error: either all initializer clauses should be designated or none of them should be
+  111 |         .number = {5.0, 0.1, 10.0, 0.1, 5.0}  // PID_SWITCHING_DELTA
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:117:9: error: either all initializer clauses should be designated or none of them should be
+  117 |         .boolean = {false, false}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:123:9: error: either all initializer clauses should be designated or none of them should be
+  123 |         .string = {"wifi", 32, "wifi"}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:128:9: error: either all initializer clauses should be designated or none of them should be
+  128 |         .string = {"passw", 64, "passw"}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:133:9: error: either all initializer clauses should be designated or none of them should be
+  133 |         .string = {"", 64, ""}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:138:9: error: either all initializer clauses should be designated or none of them should be
+  138 |         .uint16 = {1883, 1, 65535, 1, 1883}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:143:9: error: either all initializer clauses should be designated or none of them should be
+  143 |         .string = {"my_token-102938", 33, "my_token-102938"}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:148:9: error: either all initializer clauses should be designated or none of them should be
+  148 |         .boolean = {true, true}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:153:9: error: either all initializer clauses should be designated or none of them should be
+  153 |         .uint16 = {443, 1, 65535, 1, 443}
+      |         ^
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\param_config.cpp:155:1: error: too many initializers for 'ConfigParam::<unnamed union>::<unnamed struct>'
+  155 | };
+      | ^
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:4,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:14:
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\ESP_Async_WebServer\src/ESPAsyncWebServer.h: In member function 'tcp_state AsyncWebServer::state() const':
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\ESP_Async_WebServer\src/ESPAsyncWebServer.h:1124:49: error: passing 'const AsyncServer' as 'this' argument discards qualifiers [-fpermissive]
+ 1124 |     return static_cast<tcp_state>(_server.status());
+      |                                   ~~~~~~~~~~~~~~^~
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\libraries\ESP_Async_WebServer\src/ESPAsyncWebServer.h:19:
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\AsyncTCP/AsyncTCP.h:198:13: note:   in call to 'uint8_t AsyncServer::status()'
+  198 |     uint8_t status();
+      |             ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:18:55: error: 'JsonVariant' has not been declared
+   18 |     void handleAPISet(AsyncWebServerRequest *request, JsonVariant &json);
+      |                                                       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:24:55: error: 'JsonVariant' has not been declared
+   24 |     bool setParamValueFromJSON(const char* paramName, JsonVariant &value);
+      |                                                       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:26:26: error: 'JsonDocument' has not been declared
+   26 |     void buildStatusJSON(JsonDocument& doc);
+      |                          ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:27:26: error: 'JsonDocument' has not been declared
+   27 |     void buildParamsJSON(JsonDocument& doc);
+      |                          ^~~~~~~~~~~~
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:17:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.h:15:20: error: 'ConfigSystem' has not been declared
+   15 |                    ConfigSystem* config, BurstFireDimmer* dimmer);
+      |                    ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\PID_AutoTune_v2.h:42:5: error: 'ConfigSystem' does not name a type
+   42 |     ConfigSystem* _config;
+      |     ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:27:1: error: 'PIDController' does not name a type
+   27 | PIDController pidController;
+      | ^~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:28:1: error: 'TemperatureSensor' does not name a type
+   28 | TemperatureSensor tempSensor;
+      | ^~~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:29:1: error: 'DimmerController' does not name a type
+   29 | DimmerController dimmerController;
+      | ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino: In function 'void setup()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:53:5: error: 'tempSensor' was not declared in this scope
+   53 |     tempSensor.begin(ONE_WIRE_BUS);
+      |     ^~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:53:22: error: 'ONE_WIRE_BUS' was not declared in this scope; did you mean 'ONEWIRE_CRC'?
+   53 |     tempSensor.begin(ONE_WIRE_BUS);
+      |                      ^~~~~~~~~~~~
+      |                      ONEWIRE_CRC
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:54:5: error: 'dimmerController' was not declared in this scope
+   54 |     dimmerController.begin(ZERO_CROSS_PIN, TRIAC_PIN);
+      |     ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:57:5: error: 'pidController' was not declared in this scope; did you mean 'isControl'?
+   57 |     pidController.begin(
+      |     ^~~~~~~~~~~~~
+      |     isControl
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino: In function 'void loop()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:85:55: error: 'PARAM_UPDATE_INTERVAL' was not declared in this scope
+   85 |     if (currentMillis - lastTempRead >= getParamFloat(PARAM_UPDATE_INTERVAL)) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:86:29: error: 'tempSensor' was not declared in this scope
+   86 |         float currentTemp = tempSensor.readTemperature();
+      |                             ^~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:97:27: error: 'PARAM_OPERATING_MODE' was not declared in this scope
+   97 |         if (getParamUint8(PARAM_OPERATING_MODE) == 1) { // Auto mode
+      |                           ^~~~~~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:103:35: error: 'pidController' was not declared in this scope; did you mean 'isControl'?
+  103 |                 float pidOutput = pidController.compute(currentTemp, setpoint);
+      |                                   ^~~~~~~~~~~~~
+      |                                   isControl
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:119:22: error: 'PARAM_HEATER_ENABLED' was not declared in this scope; did you mean 'PARAM_HTTPS_ENABLED'?
+  119 |     if (getParamBool(PARAM_HEATER_ENABLED)) {
+      |                      ^~~~~~~~~~~~~~~~~~~~
+      |                      PARAM_HTTPS_ENABLED
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:120:9: error: 'dimmerController' was not declared in this scope
+  120 |         dimmerController.setPower(getParamUint8(PARAM_POWER_LEVEL));
+      |         ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:122:9: error: 'dimmerController' was not declared in this scope
+  122 |         dimmerController.setPower(0);
+      |         ^~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino: In function 'void showSystemStatus()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:178:34: error: 'PARAM_OPERATING_MODE' was not declared in this scope
+  178 |     Serial.println(getParamUint8(PARAM_OPERATING_MODE) == 1 ? "AUTO" : "MANUAL");
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:189:33: error: 'PARAM_HEATER_ENABLED' was not declared in this scope; did you mean 'PARAM_HTTPS_ENABLED'?
+  189 |     Serial.println(getParamBool(PARAM_HEATER_ENABLED) ? "ENABLED" : "DISABLED");
+      |                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                 PARAM_HTTPS_ENABLED
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino: In function 'void checkSafetyLimits()':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild.ino:201:22: error: 'PARAM_HEATER_ENABLED' was not declared in this scope; did you mean 'PARAM_HTTPS_ENABLED'?
+  201 |         setParamBool(PARAM_HEATER_ENABLED, false);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+      |                      PARAM_HTTPS_ENABLED
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:4,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:1:
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\ESP_Async_WebServer\src/ESPAsyncWebServer.h: In member function 'tcp_state AsyncWebServer::state() const':
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\ESP_Async_WebServer\src/ESPAsyncWebServer.h:1124:49: error: passing 'const AsyncServer' as 'this' argument discards qualifiers [-fpermissive]
+ 1124 |     return static_cast<tcp_state>(_server.status());
+      |                                   ~~~~~~~~~~~~~~^~
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\libraries\ESP_Async_WebServer\src/ESPAsyncWebServer.h:19:
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\AsyncTCP/AsyncTCP.h:198:13: note:   in call to 'uint8_t AsyncServer::status()'
+  198 |     uint8_t status();
+      |             ^~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:18:55: error: 'JsonVariant' has not been declared
+   18 |     void handleAPISet(AsyncWebServerRequest *request, JsonVariant &json);
+      |                                                       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:24:55: error: 'JsonVariant' has not been declared
+   24 |     bool setParamValueFromJSON(const char* paramName, JsonVariant &value);
+      |                                                       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:26:26: error: 'JsonDocument' has not been declared
+   26 |     void buildStatusJSON(JsonDocument& doc);
+      |                          ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:27:26: error: 'JsonDocument' has not been declared
+   27 |     void buildParamsJSON(JsonDocument& doc);
+      |                          ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp: In lambda function:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:43:68: error: cannot bind non-const lvalue reference of type 'int&' to an rvalue of type 'int'
+   43 |                     this->handleAPISet(request, doc.as<JsonVariant>());
+      |                                                 ~~~~~~~~~~~~~~~~~~~^~
+In file included from C:\Users\Alex.Nelson\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Array/ElementProxy.hpp:7,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Array/JsonArray.hpp:7,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson.hpp:38,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson.h:9,
+                 from C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:2:
+C:\Users\Alex.Nelson\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Variant/VariantRefBase.hpp:52:3: note:   after user-defined conversion: 'ArduinoJson::V742PB22::detail::VariantRefBase<TDerived>::operator T() const [with T = int; typename ArduinoJson::V742PB22::detail::enable_if<(! ArduinoJson::V742PB22::detail::is_same<T, TDerived>::value), int>::type <anonymous> = 0; TDerived = ArduinoJson::V742PB22::JsonVariant]'
+   52 |   operator T() const {
+      |   ^~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:18:68: note:   initializing argument 2 of 'void HTTPSModule::handleAPISet(AsyncWebServerRequest*, int&)'
+   18 |     void handleAPISet(AsyncWebServerRequest *request, JsonVariant &json);
+      |                                                       ~~~~~~~~~~~~~^~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp: In member function 'void HTTPSModule::handleAPIStatus(AsyncWebServerRequest*)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:56:21: error: cannot convert 'ArduinoJson::V742PB22::DynamicJsonDocument' to 'int&'
+   56 |     buildStatusJSON(doc);
+      |                     ^~~
+      |                     |
+      |                     ArduinoJson::V742PB22::DynamicJsonDocument
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:26:40: note:   initializing argument 1 of 'void HTTPSModule::buildStatusJSON(int&)'
+   26 |     void buildStatusJSON(JsonDocument& doc);
+      |                          ~~~~~~~~~~~~~~^~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:89:6: error: no declaration matches 'void HTTPSModule::handleAPISet(AsyncWebServerRequest*, ArduinoJson::V742PB22::JsonVariant&)'
+   89 | void HTTPSModule::handleAPISet(AsyncWebServerRequest *request, JsonVariant &json) {
+      |      ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:18:10: note: candidate is: 'void HTTPSModule::handleAPISet(AsyncWebServerRequest*, int&)'
+   18 |     void handleAPISet(AsyncWebServerRequest *request, JsonVariant &json);
+      |          ^~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:7:7: note: 'class HTTPSModule' defined here
+    7 | class HTTPSModule {
+      |       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp: In member function 'void HTTPSModule::handleAPIParams(AsyncWebServerRequest*)':
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:119:21: error: cannot convert 'ArduinoJson::V742PB22::DynamicJsonDocument' to 'int&'
+  119 |     buildParamsJSON(doc);
+      |                     ^~~
+      |                     |
+      |                     ArduinoJson::V742PB22::DynamicJsonDocument
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:27:40: note:   initializing argument 1 of 'void HTTPSModule::buildParamsJSON(int&)'
+   27 |     void buildParamsJSON(JsonDocument& doc);
+      |                          ~~~~~~~~~~~~~~^~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp: At global scope:
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:150:6: error: no declaration matches 'bool HTTPSModule::setParamValueFromJSON(const char*, ArduinoJson::V742PB22::JsonVariant&)'
+  150 | bool HTTPSModule::setParamValueFromJSON(const char* paramName, JsonVariant &value) {
+      |      ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:24:10: note: candidate is: 'bool HTTPSModule::setParamValueFromJSON(const char*, int&)'
+   24 |     bool setParamValueFromJSON(const char* paramName, JsonVariant &value);
+      |          ^~~~~~~~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:7:7: note: 'class HTTPSModule' defined here
+    7 | class HTTPSModule {
+      |       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:252:6: error: no declaration matches 'void HTTPSModule::buildStatusJSON(ArduinoJson::V742PB22::JsonDocument&)'
+  252 | void HTTPSModule::buildStatusJSON(JsonDocument& doc) {
+      |      ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:26:10: note: candidate is: 'void HTTPSModule::buildStatusJSON(int&)'
+   26 |     void buildStatusJSON(JsonDocument& doc);
+      |          ^~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:7:7: note: 'class HTTPSModule' defined here
+    7 | class HTTPSModule {
+      |       ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.cpp:288:6: error: no declaration matches 'void HTTPSModule::buildParamsJSON(ArduinoJson::V742PB22::JsonDocument&)'
+  288 | void HTTPSModule::buildParamsJSON(JsonDocument& doc) {
+      |      ^~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:27:10: note: candidate is: 'void HTTPSModule::buildParamsJSON(int&)'
+   27 |     void buildParamsJSON(JsonDocument& doc);
+      |          ^~~~~~~~~~~~~~~
+C:\Users\Alex.Nelson\Documents\Arduino\FermController\FermController_Basic_EEPROM_Rest-API-Temp_PIDv2_Rebuild\HTTPS_Module.h:7:7: note: 'class HTTPSModule' defined here
+    7 | class HTTPSModule {
+      |       ^~~~~~~~~~~
+exit status 1
+
+Compilation error: either all initializer clauses should be designated or none of them should be
